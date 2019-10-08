@@ -4,6 +4,7 @@
 * Clock
 * Spotify Integration
 * Particle Background
+* Integrated Control Panel (No Wallpaper Engine Configuration Options needed)
 
 ## Screenshots
 <img src="screenshots/01.png" width="600" />
