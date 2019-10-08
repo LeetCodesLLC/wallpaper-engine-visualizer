@@ -1,0 +1,25 @@
+.menu-tile {
+    border: 1px solid #aaa !important;
+    width: 120px !important;
+    height: 120px !important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px !important;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+.menu-tile .material-icons {
+    font-size: 80px; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 120px;
+}
+
+.jsPanel-content {
+    padding: 5px;
+}

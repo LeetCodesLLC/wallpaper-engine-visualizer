@@ -1,0 +1,75 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-image: url('default.png');
+    overflow: hidden;
+}
+
+.clock {
+    position: fixed;
+    
+    top: 20px;
+    left: 20px;
+    
+    font-size: 20px; 
+    
+    cursor: default;
+    z-index: 10;
+}
+
+.clock > .time {
+    text-align: center;
+    display: block;
+}
+    
+.clock > .date {
+    display: block;
+    text-align: center;
+}
+
+.visualizer {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+}
+
+#log {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+    border: 0;
+    background: rgba(0,0,0,0);
+    color: #fff;
+}
+
+#show-menu {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container.flex-row {
+    flex-flow: row;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.spaceleft + .spaceleft {
+    margin-left: 10px;
+}
+
+.pickr > button {
+    border: 1px solid #aaa;
+}
